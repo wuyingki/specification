@@ -59,9 +59,9 @@ get:
               _embedded:
                 type: object
                 required:
-                  - items
+                  - courses
                 properties:
-                  items:
+                  courses:
                     type: array
                     items:
                       $ref: '../schemas/Course.yaml'
